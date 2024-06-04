@@ -5,4 +5,5 @@ scrape_configs:
   - job_name: 'app-achat'
     metrics_path: '/metrics'
     static_configs:
-      - targets: ['app-achat:1234']
+      - targets: ['app-achat:8082']
+
